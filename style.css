@@ -1,0 +1,976 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .main1 {
+    display: flex;
+    gap: 10px 50px;
+} */
+body {
+    background-color:rgb(240, 237, 237) ;
+}
+.bgimg {
+    position: relative;
+    height: 500px;
+    width: auto;
+    background-image: url(steak\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.inputbox {
+    position: absolute;
+    margin-top: 230px;
+    height: 60px;
+    width: 200px;
+    background-color: whitesmoke;
+    margin-left: 320px;   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.svgimg5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 48%;
+    left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+input[type="text"] {
+    margin-left: 80px;
+    height: 60px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+
+}
+input[type="text2"] {
+    margin-top: 230px;
+    height: 60px;
+    width:480px;
+    margin-left: 520px;
+    border: none;
+    background-color:whitesmoke;
+    border-left: 1px rgba(0, 0, 0, 0.4) solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    
+    
+}
+.b1 {
+    background-color: lime;
+    height: 60px;
+    width: 150px;
+    margin-left:850px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    position: absolute;
+    margin-top: -60px;
+
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: white;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+    position: fixed;
+    z-index: 10;
+    width: 1500px;      
+}
+.need {
+    font-size: 12px;
+    margin-left: -10px;
+}
+.needlinks {
+    display: flex;
+    gap: 10px;
+}
+.needlinks a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;  
+    margin-left: 30px;
+}
+h1 {
+    font-size: 30px;
+    padding-top: 5px;
+    margin-left: -140px;
+
+}
+h3 {
+    font-size: 10px;
+    margin-left: 107px;
+    margin-top: -1px;
+    font-weight: lighter;
+}
+.svg2{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.b2 {
+    background-color: limegreen;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border: 2px  solid green;
+    color: whitesmoke;
+    margin-left: 600px;
+}
+    
+
+.mainimg {
+    display: flex;
+    background-color: white;
+    height: 400px;  
+    
+}
+.h {
+        position: absolute;
+        left:50%;
+        text-align: center;
+        padding-top: 20px;
+}
+.imgdiv {
+    margin-left: 50px;
+    
+}
+
+.img2 {
+    margin-top: 80px;
+    background-image: url(IMG_1915.jpg);
+    height: 120px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 170px;
+
+    
+}
+.searchflex {
+    display: block;
+    justify-content: space-between;
+    
+}
+.search {
+    display: block;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 20px;
+      
+}
+.search12 {
+    display: block;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 140px;
+
+}
+.search13 {
+    display: block;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 90px;
+
+}
+.search14 {
+    display: block;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.search1 {
+    font-size: 13px;
+    margin-left: -90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: "segoe ui";
+}
+.search2 {
+    margin-left: 10px;
+    margin-top: 30px ;
+    font-size: 13px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: "segoe ui";
+}
+.search3{
+    margin-left: 15px;
+    margin-top: 30px ;
+    font-size: 13px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: "segoe ui";
+
+}
+.search4 {
+    text-align: center;
+    margin-top: 10px ;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: "segoe ui";
+
+
+}
+.img {
+    margin-top: 80px;
+    background-image: url(IMG_1916.jpg);
+    height: 120px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+
+
+}
+.img3 {
+    margin-top: 80px;
+    background-image: url(IMG_1914.jpeg);
+    height: 120px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 180px;
+    
+
+}
+
+
+.maindiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    padding-top: 30px;
+    
+}
+.one {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+}
+h4 {
+    padding-left: 40px;
+    padding-top: 260px;
+    padding-bottom: 5px;
+    font-family: verdana;
+}
+h5 {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    
+
+}
+.svgimg {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.svgimg a {
+    color: black;
+    text-decoration: none;
+}
+.svgimg2 {
+    display: flex;
+    gap: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.two2 {
+    margin-left: -55px;
+}
+h6 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.line2 {
+    height: 1px;
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+.divimg {
+    background-image: url(Jollof\ Rice.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+}
+.two {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.divimg2 {
+    background-image: url(j\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+
+}
+.three {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.divimg {
+    background-image: url(Jollof\ Rice.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+}
+.two {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.divimg2 {
+    background-image: url(j\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+
+}
+.three {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.divimg3 {
+    background-image: url(j\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+
+}
+.four {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.divimg4 {
+    background-image: url(n\ food\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+}
+.five {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.divimg5 {
+    background-image: url(n\ food\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+
+}
+.six {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.divimg6 {
+    background-image: url(n\ foods.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+
+}
+.b3 {
+    background-color: limegreen;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 30px;
+    height: 50px;
+    width: 350px;
+    border: 2px  solid green;
+    color: whitesmoke;
+    margin-left: 520px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 3px rgba(0, 0, 0, 0.4);
+}
+.maindiv4 {
+    display: block;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 3px rgba(0, 0, 0, 0.4);
+}
+.cuisine {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: verdana;
+}
+.anime {
+    background-image: url(euro\ 1.jpg);
+    height: 600px;
+    width: 1350px;
+    background-position: center;
+    background-size: cover;
+    animation-name: anime1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: -30s;
+    margin-top: -20px;
+    
+}
+@keyframes anime1 {
+    20%{background-image: url(euro\ 1.jpg);}
+    40%{background-image: url(chi\ 2.avif);}
+    60%{background-image: url(pizza\ 1.jpg);}
+    80%{background-image: url(steak\ 2.jpg);}
+    100%{background-image: url(pas\ 2.jpg);}
+    
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 24, 24);
+    height: 300px;
+    width: auto;
+    
+}
+.ft {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    
+
+    
+}
+.info {
+    margin-top: 80px;
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 32px;
+    margin-left: -300px;
+}
+.acct {
+    margin-top: 80px;
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 32px;
+    margin-left: -50px;
+}
+.popular {
+    margin-top: 80px;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-right: 100px;
+    line-height: 32px;
+}
+
+
+@media only screen and (max-width:470px)
+{
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px 50px;
+    }
+    .lg, .need, .needlinks {
+        display: none;
+    }
+    .bgimg {
+        position: relative;
+        height: 500px;
+        width: 420px;
+        background-image: url(steak\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .inputbox {
+        position: absolute;
+        margin-top: 150px;
+        height: 50px;
+        width: 380px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        margin-left: 20px;   
+    }
+    .svgimg5 {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 48%;
+        left: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    input[type="text"] {
+        margin-left: 80px;
+        height: 50px;
+        width: 300px;
+        background-color: whitesmoke;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    
+      
+    }
+    input[type="text2"] {
+        margin-top: 220px;
+        height: 50px;
+        width:380px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: whitesmoke;
+        
+    }
+    .b1 {
+        background-color: lime;
+        height: 50px;
+        width: 380px;
+        margin-left:20px ;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: white;
+    
+    }
+    nav {
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-radius: 2px;
+        border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+        position: fixed;
+        z-index: 10;
+            
+    }
+    h1 {
+        font-size: 30px;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+    h3 {
+        font-size: 10px;
+        margin-left: 107px;
+        margin-top: -1px;
+        font-weight: lighter;
+    }
+    .lg2, .lg3 {
+        display: none;
+    }
+    .svg2{
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+    .mainimg {
+        display: block;
+        background-color: white;
+        margin-top: 50px;
+        height: 750px; 
+        padding-top: 50px;  
+    }
+    .h {
+        position: absolute;
+        left:35%;
+        
+    }
+    
+    .img2 {
+    
+        background-image: url(IMG_1915.jpg);
+        height: 60px;
+        width: 80px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 140px;
+    }
+    .search {
+        margin-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .search1 {
+        font-size: 13px;
+        margin-left: -10px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-family: "segoe ui";
+    }
+    .search4 {
+        font-size: 12px;
+        margin-left: -12px;
+    }
+    .search12 {
+        display: block;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 100px;
+    
+    }
+    .search13 {
+        display: block;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    
+    }
+    .search14 {
+        display: block;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .search2 {
+        margin-left: -10px;
+        margin-top: 30px ;
+        font-size: 13px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-family: "segoe ui";
+    }
+    .search3{
+        margin-left: -25px;
+        margin-top: 30px ;
+        font-size: 13px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-family: "segoe ui";
+    
+    }
+    
+    .img {
+        margin-top: 20px;
+        background-image: url(IMG_1916.jpg);
+        height: 60px;
+        width: 80px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 140px;
+    
+    }
+    .img3 {
+        margin-top: 20px;
+        background-image: url(IMG_1914.jpeg);
+        height: 60px;
+        width: 80px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 140px;
+    
+    }
+    .b2 {
+        background-color: limegreen;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 30px;
+        height: 30px;
+        width: 100px;
+        border: 2px  solid green;
+        color: whitesmoke;
+        margin-left: 160px;
+    }
+    
+    
+    .maindiv {
+        display: block;
+        justify-content: center;
+        margin-top: 60px;
+        
+    }
+    .one {
+        height: 400px;
+        width: 400px;
+        background-color: white;
+        margin-left: 12px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    h4 {
+        padding-left: 40px;
+        padding-top: 260px;
+        padding-bottom: 5px;
+        font-family: verdana;
+    }
+    h5 {
+        padding-left: 10px;
+        font-size: 15px;
+        font-weight: lighter;
+        
+    
+    }
+    .svgimg {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .svgimg a {
+        color: black;
+        text-decoration: none;
+    }
+    .svgimg2 {
+        display: flex;
+        gap: 60px;
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    .two2 {
+        margin-left: -55px;
+    }
+    h6 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    
+    .line2 {
+        height: 1px;
+        width: 400px;
+        background-color:rgba(0, 0, 0, 0.4);
+        margin-top: 20px;
+    }
+    .divimg {
+        background-image: url(Jollof\ Rice.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 400px;
+    }
+    .two {
+        height: 400px;
+        width: 400px;
+        background-color: white;
+        margin-left: 12px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    
+    }
+    .divimg2 {
+        background-image: url(j\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 400px;
+    
+    }
+    .three {
+        height: 400px;
+        width: 400px;
+        background-color: white;
+        margin-left: 12px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    
+    }
+    .divimg3 {
+        background-image: url(j\ 4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 400px;
+    
+    }
+    .four {
+        height: 400px;
+        width: 400px;
+        background-color: white;
+        margin-left: 12px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    
+    }
+    .divimg4 {
+        background-image: url(n\ food\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 400px;
+    }
+    .b3 {
+        background-color: limegreen;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 30px;
+        height: 40px;
+        width: 250px;
+        border: 2px  solid green;
+        color: whitesmoke;
+        margin-left: 90px;
+        margin-top: 30px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 3px rgba(0, 0, 0, 0.4);
+    }
+    .maindiv4 {
+        display: block;
+        justify-content: center;
+        background-color: whitesmoke;
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 3px rgba(0, 0, 0, 0.4);;
+    }
+    .cuisine {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+        font-family: verdana;
+    }
+    .anime {
+        background-image: url(euro\ 1.jpg);
+        height: 300px;
+        width: 420px;
+        background-position: center;
+        background-size: cover;
+        animation-name: anime1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: -30s;
+        margin-top: -20px;
+        
+    }
+    @keyframes anime1 {
+        20%{background-image: url(euro\ 1.jpg);}
+        40%{background-image: url(chi\ 2.avif);}
+        60%{background-image: url(pizza\ 1.jpg);}
+        80%{background-image: url(steak\ 2.jpg);}
+        100%{background-image: url(pas\ 2.jpg);}
+        
+    }
+    .mainfooter {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(0, 24, 24);
+        height: 300px;
+        width: auto;
+        margin-top: 40px;
+    }
+    .ft {
+        color: whitesmoke;
+        padding-top: 20px;
+        
+    }
+    
+    .info {
+        margin-top: 80px;
+        margin-left: -100px;
+        font-size: 18px;
+        color: whitesmoke;
+        
+    }
+    .acct {
+        margin-top: 80px;
+        font-size: 18px;
+        color: whitesmoke;
+        margin-left: 30px;
+        
+    }
+    .popular {
+        margin-top: 80px;
+        font-size: 18px;
+        color: whitesmoke;
+        margin-left: 50px;
+        
+    }
+    
+}
+
