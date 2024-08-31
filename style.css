@@ -12,17 +12,18 @@ body {
 }
 .bgimg {
     position: relative;
-    height: 500px;
-    width: auto;
+    height: 35em;
+    width: 84em;
     background-image: url(steak\ 1.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .inputbox {
     position: absolute;
     margin-top: 230px;
-    height: 60px;
-    width: 200px;
+    height: 3.8em;
+    width: 20em;
     background-color: whitesmoke;
     margin-left: 320px;   
     border-top-left-radius: 10px;
@@ -37,6 +38,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.svg1 {
+    display: none;
+}
+.hone {
+    font-size: 25px;
+    margin-left: 100px;
+    color: rgba(33, 33, 68, 0.952);
 }
    
 input[type="text"] {
@@ -87,22 +96,26 @@ nav {
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
     position: fixed;
     z-index: 10;
-    width: 1500px;      
+    width: 84em;  
+    height: 3em; 
+    border: 1px solid rgba(33, 33, 68, 0.952);   
 }
-.need {
-    font-size: 12px;
-    margin-left: -10px;
-}
+
 .needlinks {
     display: flex;
-    gap: 10px;
+    gap: 50px;
+    margin-left: 500px;
+    margin-top:-12px ;
 }
 .needlinks a {
     margin-top: 10px;
     text-decoration: none;
-    color: black;
+    color: rgba(33, 33, 68, 0.952);
     font-size: 12px;  
-    margin-left: 30px;
+    margin-left: 150px;
+}
+.needlinks a:hover{
+    color: red;
 }
 h1 {
     font-size: 30px;
@@ -138,17 +151,19 @@ h3 {
 .mainimg {
     display: flex;
     background-color: white;
-    height: 400px;  
+    height: 30em;  
     
 }
 .h {
         position: absolute;
-        left:50%;
+        left:45%;
         text-align: center;
         padding-top: 20px;
+        font-size: 20px;
 }
 .imgdiv {
     margin-left: 50px;
+    
     
 }
 
@@ -165,14 +180,18 @@ h3 {
 }
 .searchflex {
     display: block;
-    justify-content: space-between;
+    justify-content: center;
+    
+    
     
 }
 .search {
     display: block;
     margin-top: 50px;
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 100px;
+
+    
       
 }
 .search12 {
@@ -186,7 +205,7 @@ h3 {
     display: block;
     margin-top: 50px;
     font-size: 25px;
-    margin-left: 90px;
+    margin-left: 150px;
 
 }
 .search14 {
@@ -197,14 +216,14 @@ h3 {
 }
 .search1 {
     font-size: 13px;
-    margin-left: -90px;
+    margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 50px;
     font-weight: 400;
     font-family: "segoe ui";
 }
 .search2 {
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 30px ;
     font-size: 13px;
     margin-bottom: 50px;
@@ -212,7 +231,7 @@ h3 {
     font-family: "segoe ui";
 }
 .search3{
-    margin-left: 15px;
+    margin-left: 150px;
     margin-top: 30px ;
     font-size: 13px;
     margin-bottom: 50px;
@@ -227,6 +246,7 @@ h3 {
     margin-bottom: 50px;
     font-weight: 400;
     font-family: "segoe ui";
+    margin-left: 10px;
 
 
 }
@@ -237,7 +257,7 @@ h3 {
     width: 100px;
     background-position: center;
     background-size: cover;
-    margin-left: 30px;
+    margin-left: 110px;
 
 
 }
@@ -289,8 +309,17 @@ h5 {
     margin-left: 10px;
 }
 .svgimg a {
-    color: black;
+    color: blue;
     text-decoration: none;
+}
+.svgimg a:hover{
+    color: red;
+}
+.svgimg1 a{
+    text-decoration: none;
+}
+.svgimg1 a:hover{
+    color: red;
 }
 .svgimg2 {
     display: flex;
@@ -559,9 +588,18 @@ h6 {
     .lg, .need, .needlinks {
         display: none;
     }
+    .hone {
+        margin-left: 10px;
+        font-size: 25px;
+        color: rgba(33, 33, 68, 0.952);
+    }
+    .svg1 {
+        display: flex;
+        margin-left: 200px;
+    }
     .bgimg {
         position: relative;
-        height: 500px;
+        height: 30em;
         width: 420px;
         background-image: url(steak\ 1.jpg);
         background-position: center;
@@ -628,7 +666,9 @@ h6 {
         border-radius: 2px;
         border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
         position: fixed;
-        z-index: 10;
+        z-index: 100;
+        height: 3em;
+    
             
     }
     h1 {
@@ -642,9 +682,7 @@ h6 {
         margin-top: -1px;
         font-weight: lighter;
     }
-    .lg2, .lg3 {
-        display: none;
-    }
+    
     .svg2{
         margin-left: 160px;
         margin-top: 10px;
@@ -653,12 +691,17 @@ h6 {
         display: block;
         background-color: white;
         margin-top: 50px;
-        height: 750px; 
-        padding-top: 50px;  
+        height: 50em; 
+        padding-top: 50px;
+        
+    }
+    .imgdiv{
+        width: 20em;
     }
     .h {
-        position: absolute;
-        left:35%;
+        margin-top: -50px;
+       margin-left: -28px;
+        font-size: 1em;
         
     }
     
@@ -673,55 +716,55 @@ h6 {
     }
     .search {
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 1.5em;
         text-align: center;
         margin-left: -30px;
     }
     .search1 {
-        font-size: 13px;
-        margin-left: -10px;
+        font-size: 0.8em;
+        margin-left: 10px;
         margin-top: 10px;
         margin-bottom: 50px;
         font-weight: 400;
         font-family: "segoe ui";
     }
     .search4 {
-        font-size: 12px;
-        margin-left: -12px;
+        font-size: 0.8em;
+        margin-left: -5px;
     }
     .search12 {
         display: block;
         margin-top: 50px;
-        font-size: 25px;
+        font-size: 1.5em;
         margin-left: 100px;
     
     }
     .search13 {
         display: block;
         margin-top: 50px;
-        font-size: 25px;
+        font-size: 1.5em;
         margin-left: 50px;
     
     }
     .search14 {
         display: block;
         margin-top: 20px;
-        font-size: 40px;
+        font-size: 1.5em;
         text-align: center;
     }
     
     .search2 {
-        margin-left: -10px;
+        margin-left: 20px;
         margin-top: 30px ;
-        font-size: 13px;
+        font-size: 0.8em;
         margin-bottom: 50px;
         font-weight: 400;
         font-family: "segoe ui";
     }
     .search3{
-        margin-left: -25px;
+        margin-left: 20px;
         margin-top: 30px ;
-        font-size: 13px;
+        font-size: 0.8em;
         margin-bottom: 50px;
         font-weight: 400;
         font-family: "segoe ui";
@@ -766,20 +809,21 @@ h6 {
         display: block;
         justify-content: center;
         margin-top: 60px;
+        width: 8em;
         
     }
     .one {
-        height: 400px;
-        width: 400px;
+        height: 27em;
+        width: 21em;
         background-color: white;
-        margin-left: 12px;
+        margin-left: 45px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 10px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     }
     h4 {
         padding-left: 40px;
-        padding-top: 260px;
+        padding-top: 245px;
         padding-bottom: 5px;
         font-family: verdana;
     }
@@ -795,8 +839,17 @@ h6 {
         margin-left: 10px;
     }
     .svgimg a {
-        color: black;
+        color: blue;
         text-decoration: none;
+    }
+    .svgimg a:hover{
+        color: red;
+    }
+    .svgimg1 a{
+        text-decoration: none;
+    }
+    .svgimg1 a:hover{
+        color: red;
     }
     .svgimg2 {
         display: flex;
@@ -815,7 +868,7 @@ h6 {
     
     .line2 {
         height: 1px;
-        width: 400px;
+        width: 21em;
         background-color:rgba(0, 0, 0, 0.4);
         margin-top: 20px;
     }
@@ -824,14 +877,14 @@ h6 {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250px;
-        width: 400px;
+        height: 15em;
+        width: 21em;
     }
     .two {
-        height: 400px;
-        width: 400px;
+        height: 27em;
+        width: 21em;
         background-color: white;
-        margin-left: 12px;
+        margin-left: 45px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 10px;
         margin-top: 50px;
@@ -843,15 +896,15 @@ h6 {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250px;
-        width: 400px;
+        height: 15em;
+        width: 21em;
     
     }
     .three {
-        height: 400px;
-        width: 400px;
+        height: 27em;
+        width: 21em;
         background-color: white;
-        margin-left: 12px;
+        margin-left: 45px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 10px;
         margin-top: 50px;
@@ -863,15 +916,15 @@ h6 {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250px;
-        width: 400px;
+        height: 15em;
+        width: 21em;
     
     }
     .four {
-        height: 400px;
-        width: 400px;
+        height: 27em;
+        width: 21em;
         background-color: white;
-        margin-left: 12px;
+        margin-left: 45px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 10px;
         margin-top: 50px;
@@ -883,8 +936,47 @@ h6 {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250px;
-        width: 400px;
+        height: 15em;
+        width: 21em;
+    }
+    .five {
+        height: 27em;
+        width: 21em;
+        background-color: white;
+        margin-left: 45px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    
+    }
+    .divimg5 {
+        background-image: url(n\ food\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 21em;
+    
+    }
+    .six {
+        height: 27em;
+        width: 21em;
+        background-color: white;
+        margin-left: 45px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    .divimg6 {
+        background-image: url(n\ foods.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 21em;
+    
     }
     .b3 {
         background-color: limegreen;
@@ -912,7 +1004,7 @@ h6 {
     .cuisine {
         text-align: center;
         padding-top: 20px;
-        font-size: 25px;
+        font-size: 1em;
         font-family: verdana;
     }
     .anime {
@@ -968,7 +1060,7 @@ h6 {
         margin-top: 80px;
         font-size: 18px;
         color: whitesmoke;
-        margin-left: 50px;
+        margin-left: 15px;
         
     }
     
