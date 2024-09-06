@@ -546,14 +546,11 @@ h6 {
     
 }
 .ft {
-    text-align: center;
     color: whitesmoke;
     padding-top: 30px;
     font-size: 30px;
-    padding-left: 30px;
-    
-
-    
+    margin-left: -200px;
+   
 }
 .info {
     margin-top: 80px;
@@ -600,7 +597,7 @@ h6 {
     .bgimg {
         position: relative;
         height: 30em;
-        width: 420px;
+        width: 27em;
         background-image: url(steak\ 1.jpg);
         background-position: center;
         background-size: cover;
@@ -718,7 +715,7 @@ h6 {
         margin-top: 10px;
         font-size: 1.5em;
         text-align: center;
-        margin-left: -30px;
+        margin-left: 20px;
     }
     .search1 {
         font-size: 0.8em;
@@ -996,8 +993,8 @@ h6 {
         display: block;
         justify-content: center;
         background-color: whitesmoke;
-        width: auto;
-        height: auto;
+        width: 27em;
+        height: 20em;
         margin-top: 30px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 3px rgba(0, 0, 0, 0.4);;
     }
@@ -1009,8 +1006,8 @@ h6 {
     }
     .anime {
         background-image: url(euro\ 1.jpg);
-        height: 300px;
-        width: 420px;
+        height: 15em;
+        width: 27em;
         background-position: center;
         background-size: cover;
         animation-name: anime1;
@@ -1032,13 +1029,14 @@ h6 {
         display: flex;
         justify-content: space-evenly;
         background-color: rgb(0, 24, 24);
-        height: 300px;
-        width: auto;
-        margin-top: 40px;
+        height: 18em;
+        width: 27em;
+        margin-top: 30px;
     }
-    .ft {
+  .ft {
         color: whitesmoke;
         padding-top: 20px;
+        margin-left: 20px;
         
     }
     
