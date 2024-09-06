@@ -18,6 +18,9 @@ body {
     background-position: center;
     background-size: cover;
 }
+.lg {
+    display: none;
+}
 
 .inputbox {
     position: absolute;
@@ -668,6 +671,55 @@ h6 {
     
             
     }
+    .add {
+        width: 100px;
+        height: 50px;
+        color: white;
+        visibility: visible;
+    }
+    .box {
+        width: 100px;
+        height: 30px;
+        color: green;
+        float: left;
+        align-items: center;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        width: 150px;
+        height: 100px;
+        margin-left: -120px;
+        border-radius: 10px;
+      
+    
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 200px;
+
+        
+        
+    }
+    .dropdown:hover  .dropdown-content {
+        display: block;
+        color: aliceblue;
+    }
+    ul a:hover {
+        color:lime;
+    }
+    ul a {
+        display: block;
+        color: ghostwhite;
+        padding-top: 20px;
+        padding-left: 50px;
+        text-decoration: none;
+        font-family: georgia;
+    }
     h1 {
         font-size: 30px;
         padding-top: 5px;
@@ -690,6 +742,8 @@ h6 {
         margin-top: 50px;
         height: 50em; 
         padding-top: 50px;
+        width: 27em;
+        
         
     }
     .imgdiv{
@@ -711,6 +765,7 @@ h6 {
         background-size: cover;
         margin-left: 140px;
     }
+    
     .search {
         margin-top: 10px;
         font-size: 1.5em;
@@ -728,6 +783,7 @@ h6 {
     .search4 {
         font-size: 0.8em;
         margin-left: -5px;
+        text-align: center;
     }
     .search12 {
         display: block;
@@ -748,6 +804,7 @@ h6 {
         margin-top: 20px;
         font-size: 1.5em;
         text-align: center;
+    
     }
     
     .search2 {
@@ -806,7 +863,8 @@ h6 {
         display: block;
         justify-content: center;
         margin-top: 60px;
-        width: 8em;
+        width: 27em;
+        
         
     }
     .one {
