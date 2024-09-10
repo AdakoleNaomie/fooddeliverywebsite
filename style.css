@@ -99,7 +99,7 @@ nav {
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
     position: fixed;
     z-index: 10;
-    width: 84em;  
+    width: 100em;  
     height: 3em; 
     border: 1px solid rgba(33, 33, 68, 0.952);   
 }
@@ -1094,13 +1094,14 @@ h6 {
   .ft {
         color: whitesmoke;
         padding-top: 20px;
-        margin-left: 20px;
+        margin-left: 100px;
+        padding-left: 50px;
         
     }
     
     .info {
         margin-top: 80px;
-        margin-left: -100px;
+        margin-left: -280px;
         font-size: 18px;
         color: whitesmoke;
         
