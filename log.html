@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+
+    <nav>
+        <h2 class="hone">KIWIFOODS</h2>
+       
+            
+               <div class="needlinks">
+                <a href="log.html"><h2>LOGIN</h2></a>
+                <a href="signup.html"><h2>SIGNUP</h2></a>
+               </div> 
+                  <div class="add">
+                    <div class="box">
+                        <div class="lg dropdown">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(33, 33, 68, 0.952)"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg> 
+                           <div class="lg dropdown-content">
+                             <ul type="none">
+                                <a href="index.html">HOME</a>
+                                <a href="log.html">LOG IN</a>
+                                <a href="signup.html">SIGN UP</a>
+                             </ul>
+                           </div>
+                        </div>
+                    </div>
+                  </div>
+               
+        </nav>
+    <div class="form-container">
+        <h2>Register</h2>
+        <form id="registrationform">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="password" id="confirmpassword" name="confirmpassword">
+            </div>
+            <button type="submit">LOG IN</button>
+            <h6 class="h">NEW HERE?</h6>
+           <a href="signup.html">Register here</a>
+        
+        </form>
+        <div id="message"></div>
+    </div>
+    <footer>
+        <div class="footer">
+            <h6></h6>
+        </div>
+    </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>
